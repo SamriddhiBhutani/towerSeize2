@@ -48,9 +48,9 @@ function setup() {
 
 	block25 = new Block(760,70,30,40);
 
-	polygon = new Polygon(100,320,70,70);
+	polygon = new Polygon(150,380,70,70);
 
-	slingshot = new slingShot(polygon.body,{x:100,y:250})
+	slingshot = new slingShot(polygon.body,{x:150,y:250})
 	Engine.run(engine);
   
 }
